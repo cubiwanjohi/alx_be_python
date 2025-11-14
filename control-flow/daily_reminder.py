@@ -21,4 +21,4 @@ else:
     if priority in ["high", "medium", "low"]:
         reminder += ". Consider completing it when you have free time."
 
-print("\nReminder:", reminder)
+print(f"Reminder: {reminder}")
